@@ -1,0 +1,3736 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+<!-- 
+  
+
+
+
+
+
+
+
+
+
+
+
+스타일 박스 -->
+ <style>
+
+  .option-select-button,
+.option-select-button * {
+  box-sizing: border-box;
+}
+.option-select-button {
+  width: 100px;
+  height: 36.7px;
+  position: relative;
+}
+.rectangle-175 {
+  background: #ffffff;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-width: 1px;
+  width: 100px;
+  height: 36.7px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.div {
+  color: #000000;
+  text-align: left;
+  font-family: "PretendardVariable-Regular", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  position: absolute;
+  left: 38px;
+  top: 10.25px;
+  width: 50px;
+  height: 15px;
+}
+.option-selct-icon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 11.83px;
+  top: 9.25px;
+  overflow: visible;
+}
+
+/* 옵션 선택 버튼 2 */
+
+
+.option-select-button-after,
+.option-select-button-after * {
+  box-sizing: border-box;
+}
+.option-select-button-after {
+  width: 100px;
+  height: 36px;
+  position: relative;
+}
+.rectangle-174 {
+  background: #000000;
+  border-radius: 100px;
+  width: 100px;
+  height: 36px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.frame-30 {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 11px;
+  top: 8px;
+  overflow: visible;
+}
+.div {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PretendardVariable-Regular", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  position: absolute;
+  left: 37px;
+  top: 10px;
+  width: 50px;
+  height: 15px;
+}
+
+/* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+옵션 선택 버튼 선택 이후*/
+
+.option-select-open,
+.option-select-open * {
+  box-sizing: border-box;
+}
+.option-select-open {
+  height: 198px;
+  position: relative;
+}
+.rectangle-176 {
+  background: #f4f4f4;
+  border-radius: 12px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-width: 1px;
+  width: 376px;
+  height: 198px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.option-select-size-list {
+  width: 307px;
+  height: 31px;
+  position: absolute;
+  left: 37px;
+  top: 124px;
+}
+.item-label {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #767676;
+  border-width: 1px;
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.xs {
+  color: #6a6a6a;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 10.609375px;
+  line-height: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 8px;
+  width: 13.68px;
+  height: 14px;
+}
+.item-label2 {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #767676;
+  border-width: 1px;
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  left: 46px;
+  top: 0px;
+}
+.s {
+  color: #6a6a6a;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12.578125px;
+  line-height: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 8px;
+  width: 6.81px;
+  height: 14px;
+}
+.item-label3 {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #767676;
+  border-width: 1px;
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  left: 92px;
+  top: 0px;
+}
+.m {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12.140625px;
+  line-height: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 8px;
+  width: 8.89px;
+  height: 14px;
+}
+.item-label4 {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #767676;
+  border-width: 1px;
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  left: 138px;
+  top: 0px;
+}
+.l {
+  color: #6a6a6a;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 8px;
+  width: 7.86px;
+  height: 14px;
+}
+.item-label5 {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #767676;
+  border-width: 1px;
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  left: 184px;
+  top: 0px;
+}
+.xl {
+  color: #6a6a6a;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12.140625px;
+  line-height: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 8px;
+  width: 14.73px;
+  height: 14px;
+}
+.item-label6 {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #767676;
+  border-width: 1px;
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  left: 230px;
+  top: 0px;
+}
+.xxl {
+  color: #6a6a6a;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 11.703125px;
+  line-height: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 8px;
+  width: 21.61px;
+  height: 14px;
+}
+.item-label7 {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #767676;
+  border-width: 1px;
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  left: 276px;
+  top: 0px;
+}
+._3-xl {
+  color: #6a6a6a;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 11.484375px;
+  line-height: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 8px;
+  width: 21.2px;
+  height: 14px;
+}
+.option-select-select-all {
+  width: 52px;
+  height: 20px;
+  position: absolute;
+  left: 250px;
+  top: 164px;
+}
+.div {
+  color: #6a6a6a;
+  text-align: right;
+  font-family: "MsPGothic-Regular", sans-serif;
+  font-size: 10px;
+  line-height: 18.2px;
+  font-weight: 400;
+  position: absolute;
+  left: 3px;
+  top: 1px;
+  width: 42px;
+  height: 15px;
+}
+.option-select-done {
+  width: 36px;
+  height: 20px;
+  position: absolute;
+  left: 309px;
+  top: 164px;
+}
+.rectangle-173 {
+  background: #000000;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 36px;
+  height: 20px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.div2 {
+  color: #ffffff;
+  text-align: right;
+  font-family: "MsPGothic-Regular", sans-serif;
+  font-size: 10px;
+  line-height: 18.2px;
+  font-weight: 400;
+  position: absolute;
+  left: 7px;
+  top: 1px;
+  width: 20px;
+  height: 15px;
+}
+.option-select-close-icon {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 11px;
+  top: 11px;
+  overflow: visible;
+}
+.div3 {
+  color: #6a6a6a;
+  text-align: left;
+  font-family: "PretendardVariable-Regular", sans-serif;
+  font-size: 10px;
+  line-height: 18.2px;
+  font-weight: 400;
+  position: absolute;
+  left: 37px;
+  top: 38px;
+  width: 85.93px;
+  height: 15px;
+}
+.div4 {
+  color: #6a6a6a;
+  text-align: left;
+  font-family: "PretendardVariable-Regular", sans-serif;
+  font-size: 10px;
+  line-height: 18.2px;
+  font-weight: 400;
+  position: absolute;
+  left: 37px;
+  top: 98px;
+  width: 112.14px;
+  height: 15px;
+}
+.div5 {
+  color: #000000;
+  text-align: left;
+  font-family: "PretendardVariable-Regular", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  position: absolute;
+  left: 37px;
+  top: 12px;
+  width: 50px;
+  height: 15px;
+}
+.option-select-color {
+  width: 165px;
+  height: 25px;
+  position: absolute;
+  left: 37px;
+  top: 60px;
+}
+.ellipse-57 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.ellipse-58 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 35px;
+  top: 0px;
+}
+.ellipse-59 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 70px;
+  top: 0px;
+}
+.ellipse-60 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 105px;
+  top: 0px;
+}
+.ellipse-61 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 140px;
+  top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* ...existing code... */
+    .selected-size {
+  border-color: #000 !important;
+  border-width: 2px !important;
+  border-style: solid !important;
+    .dropdown {
+      position: relative;/* 
+      width: 200px; */
+      transition: height 0.3s ease;
+    }
+
+    .dropdown-button {
+      /* width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none; */
+      cursor: pointer;/* 
+      border-radius: 4px;
+      text-align: left; */
+    }
+
+    .dropdown-options {
+      display: none;/* 
+      background-color: white;
+      border: 1px solid #ddd;
+      border-top: none; */
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      z-index: 10;
+    }
+
+    .dropdown-options div {
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .dropdown-options div:hover {
+      background-color: #f1f1f1;
+    }
+
+    .show {
+      display: block;
+    }
+  </style>
+<!-- .
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->
+  <body>
+    <div class="background">
+      <div class="container">
+        <div class="container2">
+          <div class="aside">
+            <img class="image" src="IMG/Image1.png" />
+            <div class="link-button">
+              <img class="frame" src="frame0.svg" />
+            </div>
+            <div class="_176-cm-m">
+              모델: 176cm
+              <br />
+              착용 사이즈: M
+            </div>
+            <img class="image2" src="IMG/Image2.png" />
+            <div class="link-button2">
+              <img class="frame2" src="frame1.svg" />
+            </div>
+            <div class="_176-cm-m2">
+              모델: 176cm
+              <br />
+              착용 사이즈: M
+            </div>
+            <img class="image3" src="IMG/Image3.png" />
+            <img class="image4" src="IMG/Image4.png" />
+            <div class="heading-3">
+              <div class="div">제품 상세 설명</div>
+            </div>
+            <div class="_476856">제품 번호: 476856</div>
+            <div class="separator"></div>
+            <div class="legend-button">
+              <div class="div2">제품 상세</div>
+              <div class="frame3">
+                <img class="group" src="group0.svg" />
+              </div>
+            </div>
+            <img
+              class="img-https-image-uniqlo-com-uq-st-3-kr-imagesgoods-476248-feature-krgoods-476248-feature-1-jpg"
+              src="IMG/krgoods_476248_feature1.jpg.png"
+            />
+            <div class="div3">
+              타이트한 핏 &amp; 쇼트 기장의
+              <br />
+              베이직한 반팔 티셔츠. 네크
+              <br />
+              라인은 몸판과 같은 원단으
+              <br />
+              로 설정하였습니다.
+            </div>
+            <img
+              class="img-https-image-uniqlo-com-uq-st-3-kr-imagesgoods-476248-feature-krgoods-476248-feature-2-jpg"
+              src="IMG/krgoods_476248_feature2.jpg.png"
+            />
+            <div class="div4">
+              부드러운 감촉의 내추럴한
+              <br />
+              코튼 블렌드 소재를 사용하
+              <br />
+              였습니다.
+            </div>
+            <div class="separator2"></div>
+            <div class="legend-button2">
+              <div class="div5">제품 상세 설명</div>
+              <img class="frame4" src="frame3.svg" />
+            </div>
+            <div class="separator3"></div>
+            <div class="legend-button3">
+              <div class="div6">소재 정보 / 세탁 방법</div>
+              <img class="frame5" src="frame4.svg" />
+            </div>
+            <div class="separator4"></div>
+            <div class="legend-button4">
+              <div class="div7">배송 / 결제 / 교환 / 반품</div>
+              <img class="frame6" src="frame5.svg" />
+            </div>
+            <div class="separator5"></div>
+            <div class="heading-32">
+              <div class="div8">지구 · 사회를 위한 유니클로의 노력</div>
+            </div>
+            <div class="separator6"></div>
+            <div class="div9">
+              <div class="sustainability-traceability-svg-fill">
+                <img
+                  class="sustainability-traceability-svg"
+                  src="IMG/Vector-sustainability-traceability-1.png"
+                />
+              </div>
+            </div>
+            <div class="link">
+              <div class="container3">
+                <div class="div10">생산 정보</div>
+              </div>
+            </div>
+            <div class="heading-33">
+              <div class="div11">공식 스타일링</div>
+            </div>
+            <div class="styling-carousel">
+              <div class="container4">
+                <div class="list">
+                  <div class="item-link">
+                    <img class="image5" src="IMG/Image5_1.png" />
+                    <div class="button">
+                      <img class="frame7" src="frame6.svg" />
+                    </div>
+                  </div>
+                  <div class="item-link2">
+                    <img class="image5" src="IMG/Image5_2.png" />
+                    <div class="button">
+                      <img class="frame8" src="frame7.svg" />
+                    </div>
+                  </div>
+                  <div class="item-link3">
+                    <img class="image5" src="IMG/Image5_3.png" />
+                    <div class="button">
+                      <img class="frame9" src="frame8.svg" />
+                    </div>
+                  </div>
+                  <div class="item-link4">
+                    <img class="image5" src="image7.png" />
+                    <div class="button">
+                      <img class="frame10" src="frame9.svg" />
+                    </div>
+                  </div>
+                </div>
+                <div class="button2">
+                  <img class="frame11" src="frame10.svg" />
+                </div>
+              </div>
+            </div>
+            <div class="link2">
+              <div class="container5">
+                <div class="div12">공식 스타일링 더 보기</div>
+              </div>
+            </div>
+            <div class="heading-34">
+              <div class="style-hint">StyleHint</div>
+            </div>
+            <div class="styling-carousel2">
+              <div class="container6">
+                <div class="list2">
+                  <div class="item">
+                    <div class="link3">
+                      <img class="image5" src="image8.png" />
+                      <div class="button">
+                        <img class="frame12" src="frame11.svg" />
+                      </div>
+                    </div>
+                    <div class="section-section">
+                      <img class="image6" src="image9.png" />
+                      <div class="section">
+                        <div class="container7">
+                          <div class="container8">
+                            <div class="div13">진말콩</div>
+                          </div>
+                        </div>
+                        <div class="container9">
+                          <div class="_168-cm">168cm</div>
+                        </div>
+                        <div class="s">사이즈:S</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item2">
+                    <div class="link3">
+                      <img class="image5" src="image10.png" />
+                      <div class="button">
+                        <img class="frame13" src="frame12.svg" />
+                      </div>
+                    </div>
+                    <div class="section-section">
+                      <img class="image6" src="image11.png" />
+                      <div class="section">
+                        <div class="container10">
+                          <div class="container8">
+                            <div class="chaeeun">Chaeeun</div>
+                          </div>
+                        </div>
+                        <div class="container11">
+                          <div class="_161-cm">161cm</div>
+                        </div>
+                        <div class="xl">사이즈:XL</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item3">
+                    <div class="link3">
+                      <img class="image5" src="image12.png" />
+                      <div class="button">
+                        <img class="frame14" src="frame13.svg" />
+                      </div>
+                    </div>
+                    <div class="section-section">
+                      <img class="image6" src="image13.png" />
+                      <div class="section">
+                        <div class="container12">
+                          <div class="container8">
+                            <div class="jeongin">Jeongin</div>
+                          </div>
+                        </div>
+                        <div class="container13">
+                          <div class="_157-cm">157cm</div>
+                        </div>
+                        <div class="s">사이즈:S</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item4">
+                    <div class="link3">
+                      <img class="image5" src="image14.png" />
+                      <div class="button">
+                        <img class="frame15" src="frame14.svg" />
+                      </div>
+                    </div>
+                    <div class="section-section">
+                      <img class="image6" src="image15.png" />
+                      <div class="section">
+                        <div class="container14">
+                          <div class="container8">
+                            <div class="hana">Hana</div>
+                          </div>
+                        </div>
+                        <div class="container15">
+                          <div class="_163-cm">163cm</div>
+                        </div>
+                        <div class="l">사이즈:L</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item5">
+                    <div class="link3">
+                      <img class="image5" src="image16.png" />
+                      <div class="button">
+                        <img class="frame16" src="frame15.svg" />
+                      </div>
+                    </div>
+                    <div class="section-section">
+                      <img class="image6" src="image17.png" />
+                      <div class="section">
+                        <div class="container16">
+                          <div class="container8">
+                            <div class="yerin">Yerin</div>
+                          </div>
+                        </div>
+                        <div class="container17">
+                          <div class="_157-cm">157cm</div>
+                        </div>
+                        <div class="l">사이즈:L</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item6">
+                    <div class="link3">
+                      <img class="image5" src="image18.png" />
+                      <div class="button">
+                        <img class="frame17" src="frame16.svg" />
+                      </div>
+                    </div>
+                    <div class="section-section">
+                      <img class="image6" src="image19.png" />
+                      <div class="section">
+                        <div class="container18">
+                          <div class="container8">
+                            <div class="yujin">Yujin</div>
+                          </div>
+                        </div>
+                        <div class="container19">
+                          <div class="_173-cm">173cm</div>
+                        </div>
+                        <div class="l">사이즈:L</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item7">
+                    <div class="link3">
+                      <img class="image5" src="image20.png" />
+                      <div class="button">
+                        <img class="frame18" src="frame17.svg" />
+                      </div>
+                    </div>
+                    <div class="section-section">
+                      <img class="image6" src="image21.png" />
+                      <div class="section">
+                        <div class="container20">
+                          <div class="container8">
+                            <div class="bitna">Bitna</div>
+                          </div>
+                        </div>
+                        <div class="container21">
+                          <div class="_160-cm">160cm</div>
+                        </div>
+                        <div class="l">사이즈:L</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item8">
+                    <div class="link3">
+                      <img class="image5" src="image22.png" />
+                      <div class="button">
+                        <img class="frame19" src="frame18.svg" />
+                      </div>
+                    </div>
+                    <div class="section-section">
+                      <img class="image6" src="image23.png" />
+                      <div class="section">
+                        <div class="container22">
+                          <div class="container8">
+                            <div class="nahyeon">Nahyeon</div>
+                          </div>
+                        </div>
+                        <div class="container23">
+                          <div class="_172-cm">172cm</div>
+                        </div>
+                        <div class="l">사이즈:L</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item9">
+                    <div class="link3">
+                      <img class="image5" src="image24.png" />
+                      <div class="button">
+                        <img class="frame20" src="frame19.svg" />
+                      </div>
+                    </div>
+                    <div class="section-section">
+                      <img class="image6" src="image25.png" />
+                      <div class="section">
+                        <div class="container24">
+                          <div class="container8">
+                            <div class="yeojin">Yeojin</div>
+                          </div>
+                        </div>
+                        <div class="container25">
+                          <div class="_165-cm">165cm</div>
+                        </div>
+                        <div class="l">사이즈:L</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item10">
+                    <div class="link3">
+                      <img class="image5" src="image26.png" />
+                      <div class="button">
+                        <img class="frame21" src="frame20.svg" />
+                      </div>
+                    </div>
+                    <div class="section-section">
+                      <img class="image6" src="image27.png" />
+                      <div class="section">
+                        <div class="container26">
+                          <div class="container8">
+                            <div class="hyejin">Hyejin</div>
+                          </div>
+                        </div>
+                        <div class="container27">
+                          <div class="_165-cm">165cm</div>
+                        </div>
+                        <div class="l">사이즈:L</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item11">
+                    <div class="link3">
+                      <img class="image5" src="image28.png" />
+                      <div class="button">
+                        <img class="frame22" src="frame21.svg" />
+                      </div>
+                    </div>
+                    <div class="section-section">
+                      <img class="image6" src="image29.png" />
+                      <div class="section">
+                        <div class="container28">
+                          <div class="container8">
+                            <div class="yoomin">Yoomin</div>
+                          </div>
+                        </div>
+                        <div class="container29">
+                          <div class="_161-cm">161cm</div>
+                        </div>
+                        <div class="m">사이즈:M</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item12">
+                    <div class="link3">
+                      <img class="image5" src="image30.png" />
+                      <div class="button">
+                        <img class="frame23" src="frame22.svg" />
+                      </div>
+                    </div>
+                    <div class="section-section">
+                      <img class="image6" src="image31.png" />
+                      <div class="section">
+                        <div class="container30">
+                          <div class="container8">
+                            <div class="heami">Heami</div>
+                          </div>
+                        </div>
+                        <div class="container31">
+                          <div class="_158-cm">158cm</div>
+                        </div>
+                        <div class="l">사이즈:L</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item13">
+                    <div class="link3">
+                      <img class="image5" src="image32.png" />
+                      <div class="button">
+                        <img class="frame24" src="frame23.svg" />
+                      </div>
+                    </div>
+                    <div class="section-section">
+                      <img class="image6" src="image33.png" />
+                      <div class="section">
+                        <div class="container32">
+                          <div class="container8">
+                            <div class="yoojeong">Yoojeong</div>
+                          </div>
+                        </div>
+                        <div class="container33">
+                          <div class="_157-cm">157cm</div>
+                        </div>
+                        <div class="s">사이즈:S</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item14">
+                    <div class="link3">
+                      <img class="image5" src="image34.png" />
+                      <div class="button">
+                        <img class="frame25" src="frame24.svg" />
+                      </div>
+                    </div>
+                    <div class="section-section">
+                      <img class="image6" src="image35.png" />
+                      <div class="section">
+                        <div class="container34">
+                          <div class="container8">
+                            <div class="ayoung">Ayoung</div>
+                          </div>
+                        </div>
+                        <div class="container35">
+                          <div class="_159-cm">159cm</div>
+                        </div>
+                        <div class="l">사이즈:L</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item15">
+                    <div class="link3">
+                      <img class="image5" src="image36.png" />
+                      <div class="button">
+                        <img class="frame26" src="frame25.svg" />
+                      </div>
+                    </div>
+                    <div class="section-section">
+                      <img class="image6" src="image37.png" />
+                      <div class="section">
+                        <div class="container36">
+                          <div class="container8">
+                            <div class="yunju">Yunju</div>
+                          </div>
+                        </div>
+                        <div class="container37">
+                          <div class="_165-cm">165cm</div>
+                        </div>
+                        <div class="l">사이즈:L</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item16">
+                    <div class="link3">
+                      <img class="image5" src="image38.png" />
+                      <div class="button">
+                        <img class="frame27" src="frame26.svg" />
+                      </div>
+                    </div>
+                    <div class="section-section">
+                      <img class="image6" src="image39.png" />
+                      <div class="section">
+                        <div class="container38">
+                          <div class="container8">
+                            <div class="haemin">Haemin</div>
+                          </div>
+                        </div>
+                        <div class="container39">
+                          <div class="_165-cm">165cm</div>
+                        </div>
+                        <div class="l">사이즈:L</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item17">
+                    <div class="link3">
+                      <img class="image5" src="image40.png" />
+                      <div class="button">
+                        <img class="frame28" src="frame27.svg" />
+                      </div>
+                    </div>
+                    <div class="section-section">
+                      <img class="image6" src="image41.png" />
+                      <div class="section">
+                        <div class="container40">
+                          <div class="container8">
+                            <div class="gaeun">Gaeun</div>
+                          </div>
+                        </div>
+                        <div class="container41">
+                          <div class="_164-cm">164cm</div>
+                        </div>
+                        <div class="m">사이즈:M</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item18">
+                    <div class="link3">
+                      <img class="image5" src="image42.png" />
+                      <div class="button">
+                        <img class="frame29" src="frame28.svg" />
+                      </div>
+                    </div>
+                    <div class="section-section">
+                      <img class="image6" src="image43.png" />
+                      <div class="section">
+                        <div class="container14">
+                          <div class="container8">
+                            <div class="hana">Hana</div>
+                          </div>
+                        </div>
+                        <div class="container15">
+                          <div class="_163-cm">163cm</div>
+                        </div>
+                        <div class="l">사이즈:L</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item19">
+                    <div class="link3">
+                      <img class="image5" src="image44.png" />
+                      <div class="button">
+                        <img class="frame30" src="frame29.svg" />
+                      </div>
+                    </div>
+                    <div class="section-section">
+                      <img class="image6" src="image45.png" />
+                      <div class="section">
+                        <div class="container20">
+                          <div class="container8">
+                            <div class="bitna">Bitna</div>
+                          </div>
+                        </div>
+                        <div class="container21">
+                          <div class="_160-cm">160cm</div>
+                        </div>
+                        <div class="l">사이즈:L</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item20">
+                    <div class="link3">
+                      <img class="image5" src="image46.png" />
+                      <div class="button">
+                        <img class="frame31" src="frame30.svg" />
+                      </div>
+                    </div>
+                    <div class="section-section">
+                      <img class="image6" src="image47.png" />
+                      <div class="section">
+                        <div class="container36">
+                          <div class="container8">
+                            <div class="yunju">Yunju</div>
+                          </div>
+                        </div>
+                        <div class="container37">
+                          <div class="_165-cm">165cm</div>
+                        </div>
+                        <div class="l">사이즈:L</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="button2">
+                  <img class="frame32" src="frame31.svg" />
+                </div>
+              </div>
+            </div>
+            <div class="link-style-hint">
+              <div class="container42">
+                <div class="style-hint2">StyleHint 스타일링 더 보기</div>
+              </div>
+            </div>
+            <div class="heading-35">
+              <div class="div14">리뷰</div>
+            </div>
+            <div class="link4">
+              <img class="frame33" src="frame32.svg" />
+              <div class="container43">
+                <div class="div15">리뷰 작성</div>
+              </div>
+            </div>
+            <div class="link-to-review-page">
+              <div class="frame34">
+                <img class="group2" src="group1.svg" />
+              </div>
+              <div class="frame35">
+                <img class="group3" src="group2.svg" />
+              </div>
+              <div class="frame36">
+                <img class="group4" src="group3.svg" />
+              </div>
+              <div class="frame37">
+                <img class="group5" src="group4.svg" />
+              </div>
+              <div class="frame38">
+                <img class="group6" src="group5.svg" />
+              </div>
+              <div class="_4-6">4.6</div>
+              <div class="link-12">
+                <div class="container44">
+                  <div class="_12">(12)</div>
+                </div>
+              </div>
+            </div>
+            <div class="horizontal-divider">
+              <div class="background2"></div>
+              <div class="background3"></div>
+              <div class="background4"></div>
+              <div class="background5"></div>
+              <div class="background6"></div>
+            </div>
+            <div class="div16">작다</div>
+            <div class="div17">딱맞다</div>
+            <div class="div18">크다</div>
+            <div class="separator7"></div>
+            <div class="list3">
+              <div class="item21">
+                <div class="div19">너무 부드럽고 좋아요!</div>
+                <div class="_2025-4-27">2025/4/27</div>
+                <img class="svg" src="svg0.svg" />
+                <img class="svg2" src="svg1.svg" />
+                <img class="svg3" src="svg2.svg" />
+                <img class="svg4" src="svg3.svg" />
+                <img class="svg5" src="svg4.svg" />
+                <div class="xl-03-gray">
+                  구매 사이즈: XL
+                  <br />
+                  구매 색상: 03 GRAY
+                  <br />
+                  착용감: 딱맞다
+                </div>
+                <div class="div20">
+                  재질 만져보자마자 입어봤는데 너무 예뻐요 쫌 짧고 붙는 감이
+                  있는 옷이라 편하게 입고 싶어서 크게 샀습니다
+                </div>
+                <div class="div21">선택하지않음</div>
+                <div class="list4">
+                  <div class="item-button">
+                    <img class="svg6" src="svg5.svg" />
+                    <div class="div22">보고</div>
+                  </div>
+                  <div class="item-button2">
+                    <div class="_0">도움돼요 0</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item22">
+                <div class="div23">넘넘 예쁘고 착용감이 좋아요👍</div>
+                <div class="_2025-4-21">2025/4/21</div>
+                <img class="svg7" src="svg6.svg" />
+                <img class="svg8" src="svg7.svg" />
+                <img class="svg9" src="svg8.svg" />
+                <img class="svg10" src="svg9.svg" />
+                <img class="svg11" src="svg10.svg" />
+                <div class="s-69-navy">
+                  구매 사이즈: S
+                  <br />
+                  구매 색상: 69 NAVY
+                  <br />
+                  착용감: 작다
+                </div>
+                <div class="div24">
+                  소재가 정말 부드럽고, 핏이 예쁩니다 싸이즈가 작게 나온 듯 하니
+                  한치수 위로 주문하시는게 좋겠습니다
+                </div>
+                <div class="div21">선택하지않음</div>
+                <div class="list4">
+                  <div class="item-button">
+                    <img class="svg12" src="svg11.svg" />
+                    <div class="div22">보고</div>
+                  </div>
+                  <div class="item-button2">
+                    <div class="_1">도움돼요 1</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item23">
+                <div class="div25">괜찮아요</div>
+                <div class="_2025-4-18">2025/4/18</div>
+                <img class="svg13" src="svg12.svg" />
+                <img class="svg14" src="svg13.svg" />
+                <img class="svg15" src="svg14.svg" />
+                <img class="svg16" src="svg15.svg" />
+                <img class="svg17" src="svg16.svg" />
+                <div class="l-03-gray">
+                  구매 사이즈: L
+                  <br />
+                  구매 색상: 03 GRAY
+                  <br />
+                  착용감: 딱맞다
+                </div>
+                <div class="div26">
+                  스몰사이즈이지만 크롭이라 라지 구매했는데 그러길 잘했네요
+                  스커트에 입으려고 구매합니다
+                </div>
+                <div class="_156-160-cm-46-50-kg-22-5-cm">
+                  여성 · 키: 156 ~ 160cm · 몸무게: 46 ~ 50kg · 신발 사이즈:
+                  22.5cm
+                </div>
+                <div class="list5">
+                  <div class="item-button">
+                    <img class="svg18" src="svg17.svg" />
+                    <div class="div22">보고</div>
+                  </div>
+                  <div class="item-button2">
+                    <div class="_1">도움돼요 1</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="link5">
+              <div class="container45">
+                <div class="div27">더 보기</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          우측 상단 -->
+
+          <div class="side-bar">
+            <div class="list6">
+              <div class="item-heading-1">
+                <div class="t-a">미니T(반팔)스트라이프A</div>
+              </div>
+              <div class="item24">
+                <div class="button3">
+                  <img class="frame39" src="frame38.svg" />
+                </div>
+                <div class="button4">
+                  <img class="frame40" src="frame39.svg" />
+                </div>
+              </div>
+            </div>
+            <div class="fieldset">
+              <div class="list7">
+                <img class="item-label" src="item-label0.png" />
+                <div
+                  class="item-label2"
+                  style="
+                    background: url(item-label1.png) top left;
+                    background-size: 170%;
+                    background-repeat: repeat;
+                  "
+                >
+                  <div class="border"></div>
+                </div>
+              </div>
+              <div class="_69-navy">컬러: 69 NAVY</div>
+            </div>
+            <div class="fieldset2">
+              <div class="list8">
+                <div class="item-label3">
+                  <div class="xs">XS</div>
+                </div>
+                <div class="item-label4">
+                  <div class="s2">S</div>
+                </div>
+                <div class="item-label5">
+                  <div class="m2">M</div>
+                  <div class="border2"></div>
+                </div>
+                <div class="item-label6">
+                  <div class="l2">L</div>
+                </div>
+                <div class="item-label7">
+                  <div class="xl2">XL</div>
+                </div>
+                <div class="item-label8">
+                  <div class="xxl">XXL</div>
+                </div>
+                <div class="item-label9">
+                  <div class="_3-xl">3XL</div>
+                </div>
+              </div>
+              <div class="women-m">사이즈: WOMEN M</div>
+              <div class="div28">권장 사이즈: -</div>
+            </div>
+            <div class="link6">
+              <img class="frame41" src="frame40.svg" />
+              <div class="container43">
+                <div class="div29">마이 사이즈 확인</div>
+              </div>
+            </div>
+            <div class="tool-tip-label">
+              <div class="div30">
+                구매한 제품과 치수를
+                <br />
+                비교할 수 있습니다.
+              </div>
+              <div class="border3"></div>
+              <div class="button-tool-tip-label">
+                <img class="frame42" src="frame41.svg" />
+              </div>
+            </div>
+            <div class="price-is-14-900-14-900">14,900원</div>
+            <div class="link-to-review-page2">
+              <div class="frame34">
+                <img class="group7" src="group6.svg" />
+              </div>
+              <div class="frame35">
+                <img class="group8" src="group7.svg" />
+              </div>
+              <div class="frame36">
+                <img class="group9" src="group8.svg" />
+              </div>
+              <div class="frame37">
+                <img class="group10" src="group9.svg" />
+              </div>
+              <div class="frame38">
+                <img class="group11" src="group10.svg" />
+              </div>
+              <div class="link-122">
+                <div class="container44">
+                  <div class="_12">(12)</div>
+                </div>
+              </div>
+            </div>
+            <div class="background7">
+              <div class="container46">
+                <div class="_13">1</div>
+              </div>
+              <div class="button5">
+                <div class="frame43">
+                  <img class="group12" src="group11.svg" />
+                </div>
+              </div>
+              <div class="button6">
+                <img class="frame44" src="frame48.svg" />
+              </div>
+            </div>
+            <div class="div31">재고 있음</div>
+            <div class="button7">
+              <div class="container47">
+                <div class="div32">장바구니에 담기</div>
+              </div>
+              <div class="rectangle"></div>
+            </div>
+
+            <!-- 
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+우측 상단 - 매장 재고 확인 -->
+            <div class="frame-5">
+              <div class="div33">매장 재고 확인</div>
+              <img class="frame45" src="IMG/f_45.png" />
+            </div>
+            <div class="frame-8">
+              <div class="div34">재고가 있는 매장만 표시</div>
+              <div class="rectangle-90"></div>
+            </div>
+
+            <!-- 
+            
+            
+            
+            
+            
+            
+            
+            옵션선택 -->
+            <div class="option-select-button" style="display:block">
+              <div class="rectangle-175">
+                <div class="div">옵션 선택</div>
+                <img class="option-selct-icon" src="test ima/optionSelct_icon.png" />
+              </div>
+            </div>
+
+            <div class="option-select-button-after" style="display:none">
+              <div class="rectangle-174"></div>
+              <img class="frame-30" src="test ima/Frame 30.png" />
+              <div class="div">옵션 선택</div>
+            </div>
+
+            <div class="option-select-open" style="display:none">
+              <div class="rectangle-176">
+                <div class="option-select-size-list">
+                  <div class="item-label">
+                    <div class="xs">XS</div>
+                  </div>
+                  <div class="item-label2">
+                    <div class="s">S</div>
+                  </div>
+                  <div class="item-label3">
+                    <div class="m">M</div>
+                  </div>
+                  <div class="item-label4">
+                    <div class="l">L</div>
+                  </div>
+                  <div class="item-label5">
+                    <div class="xl">XL</div>
+                  </div>
+                  <div class="item-label6">
+                    <div class="xxl">XXL</div>
+                  </div>
+                  <div class="item-label7">
+                    <div class="_3-xl">3XL</div>
+                  </div>
+                </div>
+                <div class="option-select-select-all">
+                  <div class="div">모두 선택</div>
+                </div>
+                <div class="option-select-done">
+                  <div class="rectangle-173"></div>
+                  <div class="div2">완료</div>
+                </div>
+                <img class="option-select-close-icon" src="test ima/close01.png" />
+                <div class="div3">컬러</div>
+                <div class="div4">사이즈</div>
+                <div class="div5">옵션 선택</div>
+                <div class="option-select-color">
+                  <div class="ellipse-57"></div>
+                  <div class="ellipse-58"></div>
+                  <div class="ellipse-59"></div>
+                  <div class="ellipse-60"></div>
+                  <div class="ellipse-61"></div>
+                </div>
+              </div>
+            </div>
+            <!-- 옵션 선택 버튼 및 관련 요소 END -->
+
+            <!-- 옵션 펼치기 
+
+            
+
+
+
+
+            
+            -->
+
+
+
+            <!-- <div class="dropdown">
+  <button class="dropdown-button" onclick="toggleDropdown()">옵션 선택</button>
+  <div class="dropdown-options" id="dropdownOptions">
+    <div onclick="selectOption('옵션 1')">옵션 1</div>
+    <div onclick="selectOption('옵션 2')">옵션 2</div>
+    <div onclick="selectOption('옵션 3')">옵션 3</div>
+  </div>
+</div> -->
+
+            
+            <!-- 옵션 선택 finish 
+             
+            
+            
+            
+            
+            
+            
+            
+            -->
+            <div class="frame-7">
+              <div class="div36">거리순</div>
+              <div class="div37">동대문</div>
+              <img class="vector" src="vector0.svg" />
+              <img class="vector2" src="vector1.svg" />
+            </div>
+            <div class="separator8"></div>
+            <div class="separator9"></div>
+            <div class="separator10"></div>
+            <div class="frame-11">
+              <img class="vector3" src="vector2.svg" />
+              <div class="button9">
+                <div class="order-pick">ORDER &amp; pick</div>
+                <div class="rectangle"></div>
+              </div>
+              <img class="group-2" src="group-20.svg" />
+              <img class="star-7" src="star-70.svg" />
+              <div class="div38">동대문점</div>
+              <div class="_3-5-km">3.5km</div>
+              <div class="_6">서울 중구 을지로 6가</div>
+              <div class="div39">재고 있음</div>
+              <div class="ellipse-49"></div>
+              <div class="ellipse-50"></div>
+            </div>
+            <div class="frame-12">
+              <img class="vector4" src="vector3.svg" />
+              <div class="button9">
+                <div class="container47">
+                  <div class="order-pick2">ORDER &amp; pick</div>
+                </div>
+                <div class="rectangle"></div>
+              </div>
+              <img class="star-8" src="star-80.svg" />
+              <div class="div38">동대문점</div>
+              <div class="_3-5-km">3.5km</div>
+              <div class="_6">서울 중구 을지로 6가</div>
+              <div class="div39">재고 있음</div>
+              <div class="ellipse-49"></div>
+              <div class="ellipse-50"></div>
+            </div>
+            <div class="frame-13">
+              <img class="vector5" src="vector4.svg" />
+              <div class="button9">
+                <div class="container47">
+                  <div class="order-pick2">ORDER &amp; pick</div>
+                </div>
+                <div class="rectangle"></div>
+              </div>
+              <div class="div38">동대문점</div>
+              <div class="_3-5-km">3.5km</div>
+              <div class="_6">서울 중구 을지로 6가</div>
+              <div class="div39">재고 있음</div>
+              <div class="ellipse-49"></div>
+              <div class="ellipse-50"></div>
+              <img class="star-9" src="star-90.svg" />
+            </div>
+
+            <!-- 하단 페이지 넘기기 -->
+            <div class="frame-15">
+              <div class="_14">1</div>
+              <div class="_2">2</div>
+              <div class="_3">3</div>
+              <div class="_4">4</div>
+              <div class="_5">5</div>
+              <img class="frame47" src="IMG/Page-number-arrow-02.png" />
+              <img class="frame48" src="IMG/Page-number-arrow-01.png" />
+            </div>
+            <div class="separator11"></div>
+            <div class="frame-14">
+              <div class="button9">
+                <div class="frame-10">
+                  <div class="container47">
+                    <div class="order-pick2">ORDER &amp; pick</div>
+                  </div>
+                  <div class="rectangle2"></div>
+                </div>
+              </div>
+              <div class="frame-102">
+                <img class="vector6" src="vector5.svg" />
+                <img class="star-6" src="star-60.svg" />
+                <div class="div38">동대문점</div>
+                <div class="_3-5-km">3.5km</div>
+                <div class="_6">서울 중구 을지로 6가</div>
+                <div class="div39">재고 있음</div>
+                <div class="ellipse-49"></div>
+                <img class="vector7" src="vector6.svg" />
+                <div class="ellipse-50"></div>
+              </div>
+            </div>
+            <div class="frame-6">
+              <img class="frame49" src="frame53.svg" />
+              <div class="input">
+                <div class="container48">
+                  <div class="div40">매장명・주소・우편번호</div>
+                </div>
+              </div>
+              <div class="button10">
+                <img class="frame50" src="frame54.svg" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-related-product-list">
+          <div class="heading-36">
+            <div class="div41">비슷한 제품</div>
+          </div>
+          <div class="link7">
+            <img class="image7" src="image48.png" />
+            <div class="container49">
+              <div class="rectangle3"></div>
+              <div class="fieldset3">
+                <div
+                  class="label"
+                  style="
+                    background: url(label0.png) top left;
+                    background-size: 222.22%;
+                    background-repeat: repeat;
+                  "
+                >
+                  <div class="rectangle4"></div>
+                </div>
+                <div
+                  class="label2"
+                  style="
+                    background: url(label1.png) top left;
+                    background-size: 222.22%;
+                    background-repeat: repeat;
+                  "
+                >
+                  <div class="rectangle4"></div>
+                </div>
+              </div>
+              <div class="button11">
+                <img class="frame51" src="frame55.svg" />
+              </div>
+            </div>
+            <div class="women-xs-3-xl">WOMEN, XS-3XL</div>
+            <div class="heading-37">
+              <div class="t-a2">미니T(반팔)스트라이프A</div>
+            </div>
+            <div class="price-is-14-900-14-9002">14,900원</div>
+            <div class="rectangle5"></div>
+          </div>
+          <div class="table-body">
+            <div class="row">
+              <div class="data">
+                <div class="container50">
+                  <div class="div42">핏</div>
+                </div>
+              </div>
+              <div class="data2">
+                <div class="container50">
+                  <div class="div43">슬림 핏</div>
+                </div>
+              </div>
+            </div>
+            <div class="row2">
+              <div class="data">
+                <div class="container50">
+                  <div class="div44">소매 기장</div>
+                </div>
+              </div>
+              <div class="data2">
+                <div class="container50">
+                  <div class="div45">반팔</div>
+                </div>
+              </div>
+            </div>
+            <div class="row3">
+              <div class="data">
+                <div class="container50">
+                  <div class="div13">넥타입</div>
+                </div>
+              </div>
+              <div class="data2">
+                <div class="container50">
+                  <div class="div13">크루넥</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="similar-products">
+            <div class="list9">
+              <div class="item25">
+                <div class="link8">
+                  <img class="image7" src="image49.png" />
+                  <div class="container49">
+                    <div class="rectangle3"></div>
+                    <div class="fieldset3">
+                      <div
+                        class="label"
+                        style="
+                          background: url(label2.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label2"
+                        style="
+                          background: url(label3.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                    </div>
+                    <div class="button11">
+                      <img class="frame52" src="frame56.svg" />
+                    </div>
+                  </div>
+                  <div class="women-xs-3-xl2">WOMEN, XS-3XL</div>
+                  <div class="heading-38">
+                    <div class="t">미니T(반팔)래글런</div>
+                  </div>
+                  <div class="price-is-14-900-14-9003">14,900원</div>
+                  <div class="rectangle5"></div>
+                </div>
+                <div class="table-body2">
+                  <div class="row-data">
+                    <div class="container50">
+                      <div class="div43">슬림 핏</div>
+                    </div>
+                  </div>
+                  <div class="row-data2">
+                    <div class="container50">
+                      <div class="div45">반팔</div>
+                    </div>
+                  </div>
+                  <div class="row-data3">
+                    <div class="container50">
+                      <div class="div13">크루넥</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item26">
+                <div class="link8">
+                  <img class="image7" src="image50.png" />
+                  <div class="container49">
+                    <div class="rectangle6"></div>
+                    <div class="fieldset4">
+                      <div
+                        class="label"
+                        style="
+                          background: url(label4.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label2"
+                        style="
+                          background: url(label5.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label3"
+                        style="
+                          background: url(label6.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label4"
+                        style="
+                          background: url(label7.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label5"
+                        style="
+                          background: url(label8.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                    </div>
+                    <div class="button11">
+                      <img class="frame53" src="frame57.svg" />
+                    </div>
+                  </div>
+                  <div class="women-xs-3-xl2">WOMEN, XS-3XL</div>
+                  <div class="heading-38">
+                    <div class="t2">미니T(반팔)</div>
+                  </div>
+                  <div class="price-is-14-900-14-9003">14,900원</div>
+                  <div class="rectangle5"></div>
+                </div>
+                <div class="table-body2">
+                  <div class="row-data">
+                    <div class="container50">
+                      <div class="div43">슬림 핏</div>
+                    </div>
+                  </div>
+                  <div class="row-data2">
+                    <div class="container50">
+                      <div class="div45">반팔</div>
+                    </div>
+                  </div>
+                  <div class="row-data3">
+                    <div class="container50">
+                      <div class="div13">크루넥</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item27">
+                <div class="link8">
+                  <img class="image7" src="image51.png" />
+                  <div class="container49">
+                    <div class="rectangle3"></div>
+                    <div class="fieldset3">
+                      <div
+                        class="label"
+                        style="
+                          background: url(label9.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label2"
+                        style="
+                          background: url(label10.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                    </div>
+                    <div class="button11">
+                      <img class="frame54" src="frame58.svg" />
+                    </div>
+                  </div>
+                  <div class="women-xs-3-xl2">WOMEN, XS-3XL</div>
+                  <div class="heading-38">
+                    <div class="t-5">립보트넥T(5부)스트라이프</div>
+                  </div>
+                  <div class="price-is-19-900-19-900">19,900원</div>
+                  <div class="rectangle5"></div>
+                </div>
+                <div class="table-body2">
+                  <div class="row-data">
+                    <div class="container50">
+                      <div class="div43">슬림 핏</div>
+                    </div>
+                  </div>
+                  <div class="row-data2">
+                    <div class="container50">
+                      <div class="div45">반팔</div>
+                    </div>
+                  </div>
+                  <div class="row-data3">
+                    <div class="container50">
+                      <div class="div13">크루넥</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item28">
+                <div class="link8">
+                  <img class="image7" src="image52.png" />
+                  <div class="container49">
+                    <div class="rectangle7"></div>
+                    <div
+                      class="fieldset-label"
+                      style="
+                        background: url(fieldset-label0.png) top left;
+                        background-size: 222.22%;
+                        background-repeat: repeat;
+                      "
+                    >
+                      <div class="rectangle4"></div>
+                    </div>
+                    <div class="button11">
+                      <img class="frame55" src="frame59.svg" />
+                    </div>
+                  </div>
+                  <div class="women-xs-xl">WOMEN, XS-XL</div>
+                  <div class="heading-38">
+                    <div class="t-5">립보트넥T(5부)스트라이프</div>
+                  </div>
+                  <div class="div46">가격인하, 옵션할인</div>
+                  <div class="price-is-12-900-12-900">12,900원</div>
+                  <div class="rectangle5"></div>
+                </div>
+                <div class="table-body2">
+                  <div class="row-data">
+                    <div class="container50">
+                      <div class="div43">슬림 핏</div>
+                    </div>
+                  </div>
+                  <div class="row-data2">
+                    <div class="container50">
+                      <div class="div45">반팔</div>
+                    </div>
+                  </div>
+                  <div class="row-data4">
+                    <div class="container50">
+                      <div class="div13">보트넥</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item29">
+                <div class="link8">
+                  <img class="image7" src="image53.png" />
+                  <div class="container49">
+                    <div class="rectangle8"></div>
+                    <div class="fieldset5">
+                      <div
+                        class="label"
+                        style="
+                          background: url(label11.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label2"
+                        style="
+                          background: url(label12.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label3"
+                        style="
+                          background: url(label13.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label4"
+                        style="
+                          background: url(label14.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label5"
+                        style="
+                          background: url(label15.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                    </div>
+                    <div class="button11">
+                      <img class="frame56" src="frame60.svg" />
+                    </div>
+                  </div>
+                  <div class="women-xs-xl">WOMEN, XS-XL</div>
+                  <div class="heading-38">
+                    <div class="t-5">립보트넥T(5부)스트라이프</div>
+                  </div>
+                  <div class="div46">가격인하, 옵션할인</div>
+                  <div class="price-is-12-900-12-900">12,900원</div>
+                  <div class="rectangle5"></div>
+                </div>
+                <div class="table-body2">
+                  <div class="row-data">
+                    <div class="container50">
+                      <div class="div43">슬림 핏</div>
+                    </div>
+                  </div>
+                  <div class="row-data2">
+                    <div class="container50">
+                      <div class="div45">반팔</div>
+                    </div>
+                  </div>
+                  <div class="row-data4">
+                    <div class="container50">
+                      <div class="div13">보트넥</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item30">
+                <div class="link8">
+                  <img class="image7" src="image54.png" />
+                  <div class="container49">
+                    <div class="rectangle9"></div>
+                    <div class="fieldset6">
+                      <div
+                        class="label"
+                        style="
+                          background: url(label14.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label2"
+                        style="
+                          background: url(label15.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label3"
+                        style="
+                          background: url(label16.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label4"
+                        style="
+                          background: url(label17.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                    </div>
+                    <div class="button11">
+                      <img class="frame57" src="frame61.svg" />
+                    </div>
+                  </div>
+                  <div class="women-xs-3-xl2">WOMEN, XS-3XL</div>
+                  <div class="heading-38">
+                    <div class="t-52">립보트넥T(5부)</div>
+                  </div>
+                  <div class="price-is-19-900-19-900">19,900원</div>
+                  <div class="rectangle5"></div>
+                </div>
+                <div class="table-body2">
+                  <div class="row-data">
+                    <div class="container50">
+                      <div class="div43">슬림 핏</div>
+                    </div>
+                  </div>
+                  <div class="row-data2">
+                    <div class="container50">
+                      <div class="div45">반팔</div>
+                    </div>
+                  </div>
+                  <div class="row-data4">
+                    <div class="container50">
+                      <div class="div13">보트넥</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item31">
+                <div class="link8">
+                  <img class="image7" src="image55.png" />
+                  <div class="container49">
+                    <div class="rectangle7"></div>
+                    <div
+                      class="fieldset-label"
+                      style="
+                        background: url(fieldset-label1.png) top left;
+                        background-size: 222.22%;
+                        background-repeat: repeat;
+                      "
+                    >
+                      <div class="rectangle4"></div>
+                    </div>
+                    <div class="button11">
+                      <img class="frame58" src="frame62.svg" />
+                    </div>
+                  </div>
+                  <div class="women-xs-xxl">WOMEN, XS-XXL</div>
+                  <div class="heading-38">
+                    <div class="t-52">립보트넥T(5부)</div>
+                  </div>
+                  <div class="div46">가격인하, 옵션할인</div>
+                  <div class="price-is-12-900-12-900">12,900원</div>
+                  <div class="rectangle5"></div>
+                </div>
+                <div class="table-body2">
+                  <div class="row-data">
+                    <div class="container50">
+                      <div class="div43">슬림 핏</div>
+                    </div>
+                  </div>
+                  <div class="row-data2">
+                    <div class="container50">
+                      <div class="div45">반팔</div>
+                    </div>
+                  </div>
+                  <div class="row-data4">
+                    <div class="container50">
+                      <div class="div13">보트넥</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item32">
+                <div class="link8">
+                  <img class="image7" src="image56.png" />
+                  <div class="container49">
+                    <img class="frame59" src="frame63.svg" />
+                    <div class="fieldset7">
+                      <div
+                        class="label"
+                        style="
+                          background: url(label18.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label2"
+                        style="
+                          background: url(label19.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label3"
+                        style="
+                          background: url(label20.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label4"
+                        style="
+                          background: url(label21.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label5"
+                        style="
+                          background: url(label22.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label6"
+                        style="
+                          background: url(label23.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label7"
+                        style="
+                          background: url(label24.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label8"
+                        style="
+                          background: url(label25.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                    </div>
+                    <div class="button11">
+                      <img class="frame60" src="frame64.svg" />
+                    </div>
+                  </div>
+                  <div class="women-xs-3-xl2">WOMEN, XS-3XL</div>
+                  <div class="heading-38">
+                    <div class="supima-cotton-v-t">
+                      SUPIMA COTTON V넥T(반팔)
+                    </div>
+                  </div>
+                  <div class="div47">일부매장제품</div>
+                  <div class="price-is-14-900-14-9003">14,900원</div>
+                  <div class="rectangle5"></div>
+                </div>
+                <div class="table-body2">
+                  <div class="row-data">
+                    <div class="container50">
+                      <div class="div43">슬림 핏</div>
+                    </div>
+                  </div>
+                  <div class="row-data2">
+                    <div class="container50">
+                      <div class="div45">반팔</div>
+                    </div>
+                  </div>
+                  <div class="row-data3">
+                    <div class="container50">
+                      <div class="div13">크루넥</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item33">
+                <div class="link8">
+                  <img class="image7" src="image57.png" />
+                  <div class="container49">
+                    <div class="rectangle9"></div>
+                    <div class="fieldset6">
+                      <div
+                        class="label"
+                        style="
+                          background: url(label26.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label2"
+                        style="
+                          background: url(label27.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label3"
+                        style="
+                          background: url(label28.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label4"
+                        style="
+                          background: url(label29.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                    </div>
+                    <div class="button11">
+                      <img class="frame61" src="frame65.svg" />
+                    </div>
+                  </div>
+                  <div class="women-xs-3-xl2">WOMEN, XS-3XL</div>
+                  <div class="heading-38">
+                    <div class="div50">미니폴로셔츠(반팔)</div>
+                  </div>
+                  <div class="aria-label">
+                    <div class="frame34">
+                      <img class="group15" src="group14.svg" />
+                    </div>
+                    <div class="_4-7">4.7</div>
+                    <div class="_46">(46)</div>
+                  </div>
+                  <div class="price-is-14-900-14-9004">14,900원</div>
+                  <div class="rectangle5"></div>
+                </div>
+                <div class="table-body2">
+                  <div class="row-data">
+                    <div class="container50">
+                      <div class="div43">슬림 핏</div>
+                    </div>
+                  </div>
+                  <div class="row-data2">
+                    <div class="container50">
+                      <div class="div45">반팔</div>
+                    </div>
+                  </div>
+                  <div class="row-data3">
+                    <div class="container50">
+                      <div class="div13">크루넥</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item34">
+                <div class="link8">
+                  <img class="image7" src="image58.png" />
+                  <div class="container49">
+                    <div class="rectangle10"></div>
+                    <div class="fieldset8">
+                      <div
+                        class="label"
+                        style="
+                          background: url(label30.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label2"
+                        style="
+                          background: url(label31.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label3"
+                        style="
+                          background: url(label32.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label4"
+                        style="
+                          background: url(label33.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label5"
+                        style="
+                          background: url(label34.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label6"
+                        style="
+                          background: url(label35.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                    </div>
+                    <div class="button11">
+                      <img class="frame62" src="frame66.svg" />
+                    </div>
+                  </div>
+                  <div class="women-xs-xxl">WOMEN, XS-3XL</div>
+                  <div class="heading-38">
+                    <div class="supima-cotton-v-t">
+                      SUPIMA COTTON V넥T(반팔)
+                    </div>
+                  </div>
+                  <div class="div47">일부매장제품</div>
+                  <div class="price-is-14-900-14-9003">14,900원</div>
+                  <div class="rectangle5"></div>
+                </div>
+                <div class="table-body2">
+                  <div class="row-data">
+                    <div class="container50">
+                      <div class="div43">슬림 핏</div>
+                    </div>
+                  </div>
+                  <div class="row-data2">
+                    <div class="container50">
+                      <div class="div45">반팔</div>
+                    </div>
+                  </div>
+                  <div class="row-data3">
+                    <div class="container50">
+                      <div class="div13">크루넥</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item35">
+                <div class="link8">
+                  <img class="image7" src="image59.png" />
+                  <div class="container49">
+                    <div class="rectangle10"></div>
+                    <div class="fieldset8">
+                      <div
+                        class="label"
+                        style="
+                          background: url(label36.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label2"
+                        style="
+                          background: url(label37.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label3"
+                        style="
+                          background: url(label38.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label4"
+                        style="
+                          background: url(label39.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label5"
+                        style="
+                          background: url(label40.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label6"
+                        style="
+                          background: url(label41.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                    </div>
+                    <div class="button11">
+                      <img class="frame63" src="frame67.svg" />
+                    </div>
+                  </div>
+                  <div class="women-xs-xxl">WOMEN, XS-3XL</div>
+                  <div class="heading-38">
+                    <div class="ai-rism-t">AIRism소프트T(반팔)</div>
+                  </div>
+                  <div class="div53">가격인하</div>
+                  <div class="price-is-12-900-12-900">12,900원</div>
+                  <div class="rectangle5"></div>
+                </div>
+                <div class="table-body2">
+                  <div class="row-data">
+                    <div class="container50">
+                      <div class="div43">슬림 핏</div>
+                    </div>
+                  </div>
+                  <div class="row-data2">
+                    <div class="container50">
+                      <div class="div45">반팔</div>
+                    </div>
+                  </div>
+                  <div class="row-data3">
+                    <div class="container50">
+                      <div class="div13">크루넥</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item36">
+                <div class="link8">
+                  <img class="image7" src="image60.png" />
+                  <div class="container49">
+                    <div class="rectangle9"></div>
+                    <div class="fieldset6">
+                      <div
+                        class="label"
+                        style="
+                          background: url(label42.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label2"
+                        style="
+                          background: url(label43.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label3"
+                        style="
+                          background: url(label44.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label4"
+                        style="
+                          background: url(label45.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label5"
+                        style="
+                          background: url(label46.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label6"
+                        style="
+                          background: url(label47.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                    </div>
+                    <div class="button11">
+                      <img class="frame64" src="frame68.svg" />
+                    </div>
+                  </div>
+                  <div class="women-xs-xxl">WOMEN, XS-3XL</div>
+                  <div class="heading-38">
+                    <div class="t">리넨크루넥T(반팔)</div>
+                  </div>
+                  <div class="div47">일부매장제품</div>
+                  <div class="price-is-39-900-39-900">39,900원</div>
+                  <div class="rectangle5"></div>
+                </div>
+                <div class="table-body2">
+                  <div class="row-data">
+                    <div class="container50">
+                      <div class="div43">슬림 핏</div>
+                    </div>
+                  </div>
+                  <div class="row-data2">
+                    <div class="container50">
+                      <div class="div45">반팔</div>
+                    </div>
+                  </div>
+                  <div class="row-data3">
+                    <div class="container50">
+                      <div class="div13">크루넥</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item37">
+                <div class="link8">
+                  <img class="image7" src="image61.png" />
+                  <div class="container49">
+                    <div class="rectangle11"></div>
+                    <div class="fieldset9">
+                      <div
+                        class="label"
+                        style="
+                          background: url(label46.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label2"
+                        style="
+                          background: url(label47.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label3"
+                        style="
+                          background: url(label48.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label4"
+                        style="
+                          background: url(label49.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label5"
+                        style="
+                          background: url(label50.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label6"
+                        style="
+                          background: url(label51.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label7"
+                        style="
+                          background: url(label52.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                    </div>
+                    <div class="button11">
+                      <img class="frame65" src="frame69.svg" />
+                    </div>
+                  </div>
+                  <div class="women-xs-xxl">WOMEN, XS-3XL</div>
+                  <div class="heading-38">
+                    <div class="ai-rism-t">AIRism소프트T(반팔)</div>
+                  </div>
+                  <div class="div53">가격인하</div>
+                  <div class="price-is-12-900-12-900">12,900원</div>
+                  <div class="rectangle5"></div>
+                </div>
+                <div class="table-body2">
+                  <div class="row-data">
+                    <div class="container50">
+                      <div class="div43">슬림 핏</div>
+                    </div>
+                  </div>
+                  <div class="row-data2">
+                    <div class="container50">
+                      <div class="div45">반팔</div>
+                    </div>
+                  </div>
+                  <div class="row-data3">
+                    <div class="container50">
+                      <div class="div13">크루넥</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item38">
+                <div class="link8">
+                  <img class="image7" src="image62.png" />
+                  <div class="container49">
+                    <div class="rectangle12"></div>
+                    <div class="fieldset7">
+                      <div
+                        class="label"
+                        style="
+                          background: url(label53.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label2"
+                        style="
+                          background: url(label54.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label3"
+                        style="
+                          background: url(label55.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label4"
+                        style="
+                          background: url(label56.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label5"
+                        style="
+                          background: url(label57.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label6"
+                        style="
+                          background: url(label58.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                    </div>
+                    <div class="button11">
+                      <img class="frame66" src="frame70.svg" />
+                    </div>
+                  </div>
+                  <div class="women-xs-3-xl">WOMEN, XS-3XL</div>
+                  <div class="heading-38">
+                    <div class="ai-rism-t2">AIRism코튼T(반팔)</div>
+                  </div>
+                  <div class="price-is-19-900-19-900">19,900원</div>
+                  <div class="rectangle5"></div>
+                </div>
+                <div class="table-body2">
+                  <div class="row-data">
+                    <div class="container50">
+                      <div class="div43">슬림 핏</div>
+                    </div>
+                  </div>
+                  <div class="row-data2">
+                    <div class="container50">
+                      <div class="div45">반팔</div>
+                    </div>
+                  </div>
+                  <div class="row-data3">
+                    <div class="container50">
+                      <div class="div13">크루넥</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item39">
+                <div class="link8">
+                  <img class="image7" src="image63.png" />
+                  <div class="container49">
+                    <div class="rectangle11"></div>
+                    <div class="fieldset9">
+                      <div
+                        class="label"
+                        style="
+                          background: url(label61.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label2"
+                        style="
+                          background: url(label62.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label3"
+                        style="
+                          background: url(label63.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label4"
+                        style="
+                          background: url(label64.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label5"
+                        style="
+                          background: url(label65.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label6"
+                        style="
+                          background: url(label66.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label7"
+                        style="
+                          background: url(label67.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                    </div>
+                    <div class="button11">
+                      <img class="frame67" src="frame71.svg" />
+                    </div>
+                  </div>
+                  <div class="women-xs-xxl">WOMEN, XS-3XL</div>
+                  <div class="heading-38">
+                    <div class="div54">메리노크루넥스웨터(반팔)</div>
+                  </div>
+                  <div class="price-is-29-900-29-900">29,900원</div>
+                  <div class="rectangle5"></div>
+                </div>
+                <div class="table-body2">
+                  <div class="row-data">
+                    <div class="container50">
+                      <div class="div43">슬림 핏</div>
+                    </div>
+                  </div>
+                  <div class="row-data2">
+                    <div class="container50">
+                      <div class="div45">반팔</div>
+                    </div>
+                  </div>
+                  <div class="row-data3">
+                    <div class="container50">
+                      <div class="div13">크루넥</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item40">
+                <div class="link8">
+                  <img class="image7" src="image64.png" />
+                  <div class="container49">
+                    <div class="rectangle6"></div>
+                    <div class="fieldset4">
+                      <div
+                        class="label"
+                        style="
+                          background: url(label68.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label2"
+                        style="
+                          background: url(label69.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label3"
+                        style="
+                          background: url(label70.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label4"
+                        style="
+                          background: url(label71.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label5"
+                        style="
+                          background: url(label72.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                    </div>
+                    <div class="button11">
+                      <img class="frame68" src="frame72.svg" />
+                    </div>
+                  </div>
+                  <div class="women-xs-3-xl">WOMEN, XS-3XL</div>
+                  <div class="heading-38">
+                    <div class="div54">케이블크루넥스웨터(반팔)</div>
+                  </div>
+                  <div class="div55">리사이클 소재</div>
+                  <div class="price-is-29-900-29-900">29,900원</div>
+                  <div class="rectangle5"></div>
+                </div>
+                <div class="table-body2">
+                  <div class="row-data">
+                    <div class="container50">
+                      <div class="div43">슬림 핏</div>
+                    </div>
+                  </div>
+                  <div class="row-data2">
+                    <div class="container50">
+                      <div class="div45">반팔</div>
+                    </div>
+                  </div>
+                  <div class="row-data3">
+                    <div class="container50">
+                      <div class="div13">크루넥</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item41">
+                <div class="link8">
+                  <img class="image7" src="image65.png" />
+                  <div class="container49">
+                    <div class="rectangle6"></div>
+                    <div class="fieldset4">
+                      <div
+                        class="label"
+                        style="
+                          background: url(label73.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label2"
+                        style="
+                          background: url(label74.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label3"
+                        style="
+                          background: url(label75.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label4"
+                        style="
+                          background: url(label76.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label5"
+                        style="
+                          background: url(label77.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                    </div>
+                    <div class="button11">
+                      <img class="frame69" src="frame73.svg" />
+                    </div>
+                  </div>
+                  <div class="women-xs-xxl">WOMEN, XS-XXL</div>
+                  <div class="heading-38">
+                    <div class="ai-rism-t">AIRism심리스T(반팔)</div>
+                  </div>
+                  <div class="div47">일부매장제품</div>
+                  <div class="price-is-29-900-29-900">29,900원</div>
+                  <div class="rectangle5"></div>
+                </div>
+                <div class="table-body2">
+                  <div class="row-data">
+                    <div class="container50">
+                      <div class="div43">슬림 핏</div>
+                    </div>
+                  </div>
+                  <div class="row-data2">
+                    <div class="container50">
+                      <div class="div45">반팔</div>
+                    </div>
+                  </div>
+                  <div class="row-data3">
+                    <div class="container50">
+                      <div class="div13">크루넥</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item42">
+                <div class="link8">
+                  <img class="image7" src="image66.png" />
+                  <div class="container49">
+                    <div class="rectangle3"></div>
+                    <div class="fieldset3">
+                      <div
+                        class="label"
+                        style="
+                          background: url(label78.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label2"
+                        style="
+                          background: url(label79.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                    </div>
+                    <div class="button11">
+                      <img class="frame70" src="frame74.svg" />
+                    </div>
+                  </div>
+                  <div class="women-xs-3-xl2">WOMEN, XS-3XL</div>
+                  <div class="heading-38">
+                    <div class="t-b">미니T(반팔)스트라이프B</div>
+                  </div>
+                  <div class="new">NEW</div>
+                  <div class="price-is-14-900-14-9003">14,900원</div>
+                  <div class="rectangle5"></div>
+                </div>
+                <div class="table-body2">
+                  <div class="row-data5">
+                    <div class="container50">
+                      <div class="div56">-</div>
+                    </div>
+                  </div>
+                  <div class="row-data6">
+                    <div class="container50">
+                      <div class="div56">-</div>
+                    </div>
+                  </div>
+                  <div class="row-data4">
+                    <div class="container50">
+                      <div class="div56">-</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item43">
+                <div class="link8">
+                  <img class="image7" src="image67.png" />
+                  <div class="container49">
+                    <div class="rectangle9"></div>
+                    <div class="fieldset6">
+                      <div
+                        class="label"
+                        style="
+                          background: url(label80.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label2"
+                        style="
+                          background: url(label81.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label3"
+                        style="
+                          background: url(label82.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label4"
+                        style="
+                          background: url(label83.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                    </div>
+                    <div class="button11">
+                      <img class="frame71" src="frame75.svg" />
+                    </div>
+                  </div>
+                  <div class="women-xs-3-xl">WOMEN, XS-3XL</div>
+                  <div class="heading-38">
+                    <div class="ai-rism-t">AIRism소프트T(반팔)</div>
+                  </div>
+                  <div class="div53">가격인하</div>
+                  <div class="price-is-12-900-12-900">12,900원</div>
+                  <div class="rectangle5"></div>
+                </div>
+                <div class="table-body2">
+                  <div class="row-data">
+                    <div class="container50">
+                      <div class="div43">슬림 핏</div>
+                    </div>
+                  </div>
+                  <div class="row-data2">
+                    <div class="container50">
+                      <div class="div45">반팔</div>
+                    </div>
+                  </div>
+                  <div class="row-data3">
+                    <div class="container50">
+                      <div class="div13">크루넥</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item44">
+                <div class="link8">
+                  <img class="image7" src="image68.png" />
+                  <div class="container49">
+                    <div class="rectangle3"></div>
+                    <div class="fieldset3">
+                      <div
+                        class="label"
+                        style="
+                          background: url(label84.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                      <div
+                        class="label2"
+                        style="
+                          background: url(label85.png) top left;
+                          background-size: 222.22%;
+                          background-repeat: repeat;
+                        "
+                      >
+                        <div class="rectangle4"></div>
+                      </div>
+                    </div>
+                    <div class="button11">
+                      <img class="frame72" src="frame76.svg" />
+                    </div>
+                  </div>
+                  <div class="women-xs-3-xl">WOMEN, XS-3XL</div>
+                  <div class="heading-38">
+                    <div class="ai-rism-t">AIRism소프트T(반팔)</div>
+                  </div>
+                  <div class="div53">가격인하, 옵션할인</div>
+                  <div class="price-is-9-900-9-900">9,900원</div>
+                  <div class="rectangle5"></div>
+                </div>
+                <div class="table-body3">
+                  <div class="row-data5">
+                    <div class="container50">
+                      <div class="div56">-</div>
+                    </div>
+                  </div>
+                  <div class="row-data6">
+                    <div class="container50">
+                      <div class="div56">-</div>
+                    </div>
+                  </div>
+                  <div class="row-data4">
+                    <div class="container50">
+                      <div class="div56">-</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="button12">
+              <img class="frame73" src="frame77.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-ordered-list">
+        <div class="item45">
+          <div class="link-uniqlo">
+            <div class="uniqlo">UNIQLO</div>
+          </div>
+          <div class="div67">/</div>
+        </div>
+        <div class="item46">
+          <div class="link-women">
+            <div class="women">WOMEN</div>
+          </div>
+          <div class="div68">/</div>
+        </div>
+        <div class="item47">
+          <div class="link-ut">
+            <div class="ut">티셔츠 &amp; UT &amp; 브라탑</div>
+          </div>
+          <div class="div69">/</div>
+        </div>
+        <div class="item48">
+          <div class="link9">
+            <div class="div70">티셔츠</div>
+          </div>
+          <div class="div71">/</div>
+        </div>
+        <div class="item49">
+          <div class="link10">
+            <div class="div72">반팔</div>
+          </div>
+          <div class="div73">/</div>
+        </div>
+        <div class="item-link-t-a">
+          <div class="t-a3">미니T(반팔)스트라이프A</div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="list11">
+          <div class="item-link35">
+            <div class="div74">회사정보</div>
+            <div class="vertical-divider"></div>
+          </div>
+          <div class="item-link36">
+            <div class="div74">매장안내</div>
+            <div class="vertical-divider"></div>
+          </div>
+          <div class="item-link37">
+            <div class="div74">채용정보</div>
+            <div class="vertical-divider"></div>
+          </div>
+          <div class="item-link38">
+            <div class="div74">고객센터</div>
+            <div class="vertical-divider"></div>
+          </div>
+          <div class="item-link39">
+            <div class="div74">대량구매</div>
+            <div class="vertical-divider"></div>
+          </div>
+          <div class="item-link40">
+            <div class="div74">이용약관</div>
+            <div class="vertical-divider"></div>
+          </div>
+          <div class="item-link41">콘텐츠산업진흥법</div>
+        </div>
+        <div class="_300-24-104-81-91189-2019-2369">
+          에프알엘코리아(주) 대표 : 최우제, 쿠와하라 타카오
+          <br />
+          주소 : 서울시 송파구 올림픽로 300(롯데월드타워 24층)
+          <br />
+          사업자등록번호 : 104-81-91189
+          <br />
+          통신판매업신고번호 : 2019-서울송파-2369
+        </div>
+        <div class="fast-retailing-co-ltd">
+          호스팅서비스사업자 : Fast Retailing Co., Ltd.
+        </div>
+        <div class="div75">고객만족센터</div>
+        <div class="tel-1544-3178-fax-02-3213-7960">
+          TEL: 1544-3178 FAX: 02-3213-7960
+        </div>
+        <div class="link11">
+          <div class="container53">
+            <div class="div76">개인정보처리방침</div>
+          </div>
+          <div class="border4"></div>
+        </div>
+        <div class="list-item-link-email-uniqlocs-uniqlo-co-kr">
+          Email: uniqlocs@uniqlo.co.kr
+        </div>
+        <div class="list-item-link-keb">
+          KEB 하나은행 구매안전서비스 (채무지급보증)
+        </div>
+        <div class="keb">
+          당사는 고객님이 현금 결제한 금액에 대해 KEB 하나은행과 채무지급보증
+          계약을 체결하여 안전거래를 보장하고 있습니다.
+        </div>
+        <div class="button13">쿠키 설정</div>
+        <div class="separator12"></div>
+        <div class="list-item-copyright-uniqlo-co-ltd-all-rights-reserved">
+          Copyright © UNIQLO Co., Ltd. All rights reserved.
+        </div>
+        <div class="list12">
+          <div class="item-link-facebook">
+            <div class="facebook-v-2-svg-fill">
+              <img class="facebook-v-2-svg" src="facebook-v-2-svg0.svg" />
+            </div>
+          </div>
+          <div class="item-link-instagram">
+            <div class="instagram-v-2-svg-fill">
+              <img class="instagram-v-2-svg" src="instagram-v-2-svg0.svg" />
+            </div>
+          </div>
+          <div class="item-link-youtube">
+            <div class="youtube-v-2-svg-fill">
+              <img class="youtube-v-2-svg" src="youtube-v-2-svg0.svg" />
+            </div>
+          </div>
+          <div class="item-link-kakao">
+            <div class="kakao-svg-fill">
+              <img class="kakao-svg" src="kakao-svg0.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+스크립트-->
+    <script>
+  function toggleDropdown() {
+    const dropdown = document.getElementById("dropdownOptions");
+    dropdown.classList.toggle("show");
+  }
+
+  function selectOption(option) {
+    document.querySelector(".dropdown-button").textContent = option;
+    document.getElementById("dropdownOptions").classList.remove("show");
+  }
+
+  // 바깥 클릭 시 닫기
+  window.addEventListener("click", function(e) {
+    if (!e.target.matches('.dropdown-button')) {
+      const dropdown = document.getElementById("dropdownOptions");
+      if (dropdown.classList.contains("show")) {
+        dropdown.classList.remove("show");
+      }
+    }
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+  // 사이즈/컬러 선택 토글
+  document.querySelectorAll(
+    '.option-select-size-list > div,' +
+    '.ellipse-57, .ellipse-58, .ellipse-59, .ellipse-60, .ellipse-61'
+  ).forEach(function(el) {
+    el.addEventListener('click', function() {
+      el.classList.toggle('selected-size');
+    });
+  });
+
+  // 모두 선택/모두 취소 토글
+  const selectAllDiv = document.querySelector('.option-select-select-all .div');
+  let isAllSelected = false;
+  selectAllDiv.addEventListener('click', function() {
+    const targets = document.querySelectorAll(
+      '.option-select-size-list > div, .ellipse-57, .ellipse-58, .ellipse-59, .ellipse-60, .ellipse-61'
+    );
+    if (!isAllSelected) {
+      targets.forEach(function(el) {
+        el.classList.add('selected-size');
+      });
+      selectAllDiv.textContent = '모두 취소';
+      isAllSelected = true;
+    } else {
+      targets.forEach(function(el) {
+        el.classList.remove('selected-size');
+      });
+      selectAllDiv.textContent = '모두 선택';
+      isAllSelected = false;
+    }
+  });
+
+  // 상태 전환 관련 요소
+  const optionSelectButton = document.querySelector('.option-select-button');
+  const optionSelectOpen = document.querySelector('.option-select-open');
+  const optionSelectButtonAfter = document.querySelector('.option-select-button-after');
+  const doneButton = document.querySelector('.option-select-done .div2');
+  const closeIcon = document.querySelector('.option-select-close-icon');
+  const frame30 = document.querySelector('.option-select-button-after .frame-30');
+
+  // 상태 전환 함수
+  function showOnly(box) {
+    optionSelectButton.style.display = 'none';
+    optionSelectOpen.style.display = 'none';
+    optionSelectButtonAfter.style.display = 'none';
+    box.style.display = 'block';
+  }
+
+  // 초기 상태
+  showOnly(optionSelectButton);
+
+  // 옵션 선택 버튼 클릭 → 옵션 선택 상자 열기
+  optionSelectButton.addEventListener('click', function(e) {
+    showOnly(optionSelectOpen);
+    e.stopPropagation();
+  });
+
+  // 완료 버튼 클릭 → option-select-button-after로
+  doneButton.addEventListener('click', function(e) {
+    showOnly(optionSelectButtonAfter);
+    e.stopPropagation();
+  });
+
+  // 닫기 아이콘 클릭 → option-select-button으로
+  closeIcon.addEventListener('click', function(e) {
+    showOnly(optionSelectButton);
+    e.stopPropagation();
+  });
+
+  // option-select-open 바깥 클릭 → option-select-button으로
+  document.addEventListener('mousedown', function(e) {
+    if (
+      optionSelectOpen.style.display === 'block' &&
+      !optionSelectOpen.contains(e.target) &&
+      !optionSelectButton.contains(e.target) &&
+      !optionSelectButtonAfter.contains(e.target)
+    ) {
+      showOnly(optionSelectButton);
+    }
+  });
+
+  // option-select-button-after의 frame-30 클릭 → option-select-button으로
+  frame30.addEventListener('click', function(e) {
+    showOnly(optionSelectButton);
+    e.stopPropagation();
+  });
+
+  // option-select-button-after의 나머지 부분 클릭 → option-select-open으로 (frame-30 제외)
+  optionSelectButtonAfter.addEventListener('click', function(e) {
+    if (e.target === frame30) return;
+    showOnly(optionSelectOpen);
+    e.stopPropagation();
+  });
+
+  // 드롭다운(기존 코드, 필요시 유지)
+  function toggleDropdown() {
+    const dropdown = document.getElementById("dropdownOptions");
+    dropdown.classList.toggle("show");
+  }
+  function selectOption(option) {
+    document.querySelector(".dropdown-button").textContent = option;
+    document.getElementById("dropdownOptions").classList.remove("show");
+  }
+  window.addEventListener("click", function(e) {
+    if (!e.target.matches('.dropdown-button')) {
+      const dropdown = document.getElementById("dropdownOptions");
+      if (dropdown && dropdown.classList.contains("show")) {
+        dropdown.classList.remove("show");
+      }
+    }
+  });
+
+</script>
+  </body>
+</html>
